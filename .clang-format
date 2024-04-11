@@ -1,0 +1,17 @@
+---
+BasedOnStyle: Google
+IndentWidth: 2
+# spaces, not tabs!
+UseTab: Never
+# if (x) doStuff()  is not allowed, bad style
+AllowShortIfStatementsOnASingleLine: false
+# 
+AlignTrailingComments: true
+SpacesBeforeTrailingComments: 3
+#  #define SHORT_NAME       42
+#  #define LONGER_NAME      0x007f   # does nice spacing for macros
+AlignConsecutiveMacros: Consecutive
+DerivePointerAlignment: false
+PointerAlignment: Middle
+# use \n instead of \r\n
+UseCRLF: false
